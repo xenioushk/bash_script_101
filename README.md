@@ -76,3 +76,25 @@ do
     echo $plugin
 done
 ```
+
+## Function
+
+```bash
+function updateNow(){
+
+  # Print param 1
+  echo $1
+  # Print param 2
+  echo $2
+}
+
+#Call the updateNow function
+updateNow "param 1" "param 2"
+```
+
+## Sleep function
+
+```bash
+# Sleep the program for 3 seconds
+sleep 1
+```
