@@ -63,11 +63,11 @@ echo $latestWpBakery  #It will print 7.9
 $num1 = 10
 $num2= 20
 
- if [[ $num1 != $num2 ]]; then
-            echo "Number 1 $num is not equal to Number 2 $num2"
-  else
-        echo "Number 1 $num is equal to Number 2 $num2"
-  fi
+if [[ $num1 != $num2 ]]; then
+          echo "Number 1 $num is not equal to Number 2 $num2"
+else
+      echo "Number 1 $num is equal to Number 2 $num2"
+fi
 ```
 
 ## Arithmatic comparision
@@ -132,4 +132,23 @@ updateNow "param 1" "param 2"
 ```bash
 # Sleep the program for 3 seconds
 sleep 1
+```
+
+## Print current username
+
+```bash
+whoami
+```
+
+## Print system information
+
+```bash
+top
+```
+
+## Get list of users
+
+```bash
+users = $(who)
+echo $users
 ```
