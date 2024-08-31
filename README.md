@@ -9,6 +9,28 @@ Create a file and named it **mybash.sh**. Bash script must contain **.sh** exten
 echo "I Love Bash Scripting"
 ```
 
+## Provide permission to run the file
+
+```bash
+chmod a+x mybash.sh
+```
+
+## Get the current directory info
+
+```bash
+pwd
+```
+
+## Get input from user
+
+```bash
+echo "What is your name"
+#Get input from the user
+read name
+#Print the name
+echo $name
+```
+
 ## Print anything
 
 ```bash
@@ -33,6 +55,19 @@ wooPlugDir=$rootDir"/dev.woo.plug"
 ```bash
 latestWpBakery="7.9"
 echo $latestWpBakery  #It will print 7.9
+```
+
+## If Else Statement
+
+```bash
+$num1 = 10
+$num2= 20
+
+ if [[ $num1 != $num2 ]]; then
+            echo "Number 1 $num is not equal to Number 2 $num2"
+  else
+        echo "Number 1 $num is equal to Number 2 $num2"
+  fi
 ```
 
 ## Arithmatic comparision
