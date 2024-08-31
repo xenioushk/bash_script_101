@@ -56,3 +56,23 @@ echo $latestWpBakery  #It will print 7.9
 # -n s1 	string s1 is not empty
 # -z s1 	string s1 is empty
 ```
+
+## Declare an array
+
+```bash
+# Declare all plugins array
+allPlugins=("baf" "bnm" "bpvm" "bkbm" "bpm");
+```
+
+## For loop
+
+```bash
+# Declare all plugins array
+allPlugins=("baf" "bnm" "bpvm" "bkbm" "bpm");
+for i in ${!allPlugins[@]};
+do
+    # Fetch the current plugin name
+    plugin=${allPlugins[$i]}
+    echo $plugin
+done
+```
