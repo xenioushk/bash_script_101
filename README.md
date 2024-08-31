@@ -1,4 +1,4 @@
-# A simple bash script guideline for beginner
+# Bash scripts guideline for beginner
 
 ## Create first bash script
 
